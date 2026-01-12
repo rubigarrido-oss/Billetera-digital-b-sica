@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimientos - MyWallet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wallet-card bg-white">
+        <h2 class="text-center mb-4">Últimos Movimientos</h2>
+        
+        <div class="list-group list-group-flush mb-4">
+            <div class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <div>
+                    <h6 class="mb-0">Depósito Cajero</h6>
+                    <small class="text-muted">12 Ene 2026</small>
+                </div>
+                <span class="badge bg-success rounded-pill">+$500.00</span>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <div>
+                    <h6 class="mb-0">Pago Netflix</h6>
+                    <small class="text-muted">10 Ene 2026</small>
+                </div>
+                <span class="badge bg-danger rounded-pill">-$15.99</span>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <div>
+                    <h6 class="mb-0">Transferencia Juan P.</h6>
+                    <small class="text-muted">08 Ene 2026</small>
+                </div>
+                <span class="badge bg-danger rounded-pill">-$120.00</span>
+            </div>
+        </div>
+
+        <div class="d-grid">
+            <a href="menu.html" class="btn btn-primary">Volver al Menú Principal</a>
+        </div>
+    </div>
+
+</body>
+</html>
